@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .refresh:before {
+    content: '\27f3';
+  }
+  
+  .refresh {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .1);
+  }
+  
+  #button {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #quote:before {
+    font-size: 60px;
+    color: gray;
+    content: '“';
+  }
+  
+  #quote {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  #quote:after {
+    font-size: 60px;
+    color: gray;
+    content: '”';
+  }
+  
+  #dogg {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    pointer-events: none;
+  }
